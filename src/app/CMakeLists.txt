@@ -14,6 +14,21 @@ qt_add_qml_module(SakuraEDL
     VERSION 1.0
     QML_FILES
         Main.qml
+        Theme.qml
+        components/DeviceInfoCard.qml
+        components/FileSelector.qml
+        components/LogPanel.qml
+        components/PartitionTable.qml
+        components/ProgressPanel.qml
+        components/SideNav.qml
+        pages/QualcommPage.qml
+        pages/MediatekPage.qml
+        pages/SpreadtrumPage.qml
+        pages/FastbootPage.qml
+        pages/AutoRootPage.qml
+        pages/SettingsPage.qml
+    RESOURCES
+        resources/logo.png
 )
 
 target_link_libraries(SakuraEDL PRIVATE

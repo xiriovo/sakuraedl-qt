@@ -129,11 +129,11 @@ Each chip platform module is compiled as a **static library** with a clean layer
 
 ### UI Development
 
-The UI is written in **Qt Quick (QML)** and supports:
+All QML files (Main, Theme, components, pages) are registered in `qt_add_qml_module()`, so the UI can be **directly edited inside Qt**:
 
-- Visual drag-and-drop editing in **Qt Design Studio**
-- Live preview and code editing in **Qt Creator**
-- QML Hot Reload for rapid development iteration
+- **Qt Creator** — Open the CMake project, navigate to any `.qml` file under `src/app/`, and use the built-in Form Editor or code editor with live preview
+- **Qt Design Studio** — Open the project for full visual drag-and-drop editing of all components and pages
+- **QML Hot Reload** — Run the app and modify QML files; changes apply instantly without rebuilding
 
 ---
 
