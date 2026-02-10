@@ -171,3 +171,9 @@ This project is licensed under the [GNU General Public License v3.0](LICENSE).
 - [edl](https://github.com/bkerler/edl) — Qualcomm Firehose / Sahara 参考实现 | Reference implementation
 - [libusb](https://libusb.info/) — USB 通信库 | USB communication library
 - [Qt](https://www.qt.io/) — 跨平台框架 | Cross-platform framework
+
+---
+
+## 联系 | Contact
+
+- Telegram: [@xiriery](https://t.me/xiriery)
