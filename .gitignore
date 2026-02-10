@@ -1,0 +1,45 @@
+# Build output
+build/
+build_*/
+build-*/
+cmake-build-*/
+out/
+
+# IDE
+.idea/
+.vscode/
+.vs/
+*.user
+*.autosave
+CMakeLists.txt.user*
+*.sln
+*.vcxproj*
+
+# Object files
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.exe
+*.so
+*.dylib
+
+# Qt generated
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.qmlc
+*.jsc
+.qmake.stash
+Makefile
+qml_module_dir_map.qrc
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc
+*.upx
+*.bak
